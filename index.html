@@ -1,52 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Agência Vorazes</title>
-        <link href="assets/kanai/css/index.css" rel="stylesheet">
-        <link href="assets/estilo-tema/estilo.css" rel="stylesheet">   
-    </head>
-    <body>
-        <main class="main" role="main">
-            <nav class="menu">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/img/logo-icon.ico"/>
+    <title>Agência Vorazes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" width="80" height="80" alt="">
+            </a>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destino.html">Destinos</a></li>
+                <li><a href="promoções.html">Promoções</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <i class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section id="hero">
+        <h1>Agência Vorazes</h1>
+        <p>Venha Realizar Aquela tão sonhada <strong>Viagem.</strong></p>
+        <a class="bt bt-yellow" href="destino.html">Confira já</a>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Sugestões de Viagens</h2>
+        <p>Destinos imperdíveis</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./assets/img/Fortaleza.jpg" alt="">
+                <div class="des">
+                    <span>Brasil</span>
+                    <h5>Fortaleza</h5>
+                    <h4>R$813,00</h4>
+                    <p>Em até 12x com juros no cartão de crédito</p>
+
                 </div>
-                <div class="container-button">
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./assets/img/Rio de Janeiro.jpg" alt="">
+                <div class="des">
+                    <span>Brasil</span>
+                    <h5>Rio de Janeiro</h5>
+                    <h4>R$940,00</h4>
+                    <p>Em até 12x com juros no cartão de crédito</p>
                 </div>
-                <ul class="links">
-                    <a href="index.html">Home</a>
-                    <a href="destino.html">Destino</a>
-                    <a href="promoções.html">Promoções</a>
-                    <a href="contatos.html">Contatos</a>
-                </ul>
-            </nav>
-            <header class="banner_topo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4"></div>
-                        <div class="col-8 text-center">
-                            <h1>Agência  Vorazes</h1>
-                            <p>Venha Realizar Aquela tão sonhada <strong>Viagem.</strong></p>
-                            <br>
-                            <a class="bt bt-yellow" href="destino.html">Confira já</a>
-                        </div>
-                    </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./assets/img/São paulo.jpg" alt="">
+                <div class="des">
+                    <span>Brasil</span>
+                    <h5>São Paulo</h5>
+                    <h4>R$679,00</h4>
+                    <p>Em até 12x com juros no cartão de crédito</p>
                 </div>
-            </header><!--/Header-->
-            <footer class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <h4>® Agência Vorazes - Serviços de Viagem Ltda.</h4>
-                        </div>
-                        <div class="col-4"></div>
-                        <div class="col-4"></div>
-                    </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-4-footer">
+                    <h4>® Agência Vorazes</h4>
                 </div>
-            </footer>
-        </main>
-    </body>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

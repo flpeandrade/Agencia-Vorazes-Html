@@ -1,61 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Agência Vorazes</title>
-        <link href="assets/kanai/css/index.css" rel="stylesheet">
-        <link href="assets/estilo-tema/estilo.css" rel="stylesheet">   
-    </head>
-    <body>
-        <main class="main" role="main">
-            <nav class="menu">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="">
-                </div>
-                <div class="container-button">
-                </div>
-                <ul class="links">
-                    <a href="index.html">Home</a>
-                    <a href="destino.html">Destino</a>
-                    <a href="promoção.html">Promoções</a>
-                    <a href="contatos.html">Contatos</a>
-                </ul>
-            </nav>
-            <header class="banner_topo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4"></div>
-                        <div class="col-8 text-center">
-                            <h1>Agência  Vorazes</h1>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </main>
-        <div style="text-align: center;">
-            <br>
-            <br>
-            <br>
-            <H1>Felipe Andrade de Castro</H1>
-            <h2>Email: felipeandradecastro@gmail.com</h2>
-            <h3>Endereço: Rua Ana Alves/São joão de meriti/Rio de Janeiro</h3>
-            <h4>Entre em contato</h4>
-            <br>
-            <br>
-            <br>
-        </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <h4>® Agência Vorazes - Serviços de Viagem Ltda.</h4>
-                    </div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/img/logo-icon.ico"/>
+    <title>Agência Vorazes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body class="corpo-destino">
+    <section>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" width="80" height="80" alt="">
+            </a>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destino.html">Destinos</a></li>
+                <li><a href="promoções.html">Promoções</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+            <div id="mobile">
+                <i class="fas fa-outdent"></i>
             </div>
-        </footer>
-            </body>
+        </nav>
+    </section>
+    <section id="hero">
+        <h1>Contatos</h1>
+    </section>
+    <br />
+    <br />
+    <form class="container-fluid">
+        <div class="form-row">
+            <div class="form-group col-md-4 col-md-3 col-md-6">
+                <label for="Nome">Nome</label>
+                <input type="text" class="form-control" id="Nome" placeholder="Nome">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4 col-md-3 col-md-6">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" class="form-control" id="Sobrenome" placeholder="Sobrenome">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email*">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="exampleFormControlTextarea1">Mensagem*</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark col-md-6 col-md-3">Enviar</button>
+    </form>
+    <br />
+    <br />
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-4-footer">
+                    <h4>® Agência Vorazes</h4>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
+
